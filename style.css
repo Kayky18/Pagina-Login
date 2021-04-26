@@ -1,0 +1,60 @@
+.fundo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background: -webkit-linear-gradient( to bottom, #6e0151, #1f0016, black);
+    background: -moz-linear-gradient( to bottom, #6e0151, #1f0016, black );
+    background: -o-linear-gradient( to bottom, #6e0151, #1f0016, black );
+    background: linear-gradient( to bottom, #6e0151, #1f0016, black );
+    background-size: 100% 100vh; 
+}
+
+.login{
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+.login img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+
+}
+input.email{
+    background-image: url(imagens/icone-usuario.png);
+}
+input.senha{
+    background-image: url(imagens/icone-cadeado.png);
+}
+input.submit{
+    color: #fff;
+    background-color: #f507b0;
+    border: 2px solid #f507b0;
+    padding: 5px 20px;
+    height: 45px;
+    width: 75%;
+    margin-top: 20px;
+
+   
+    background: -webkit-linear-gradient( to bottom,#9e0371,#f507b0);
+    background: -moz-linear-gradient( to bottom,#9e0371,#f507b0 );
+    background: -o-linear-gradient( to bottom,#9e0371,#f507b0 );
+    background: linear-gradient( to bottom,#9e0371,#f507b0 );
+}
